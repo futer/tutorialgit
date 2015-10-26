@@ -17,8 +17,13 @@ public class git extends HttpServlet {
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		PrintWriter out = response.getWriter();
-		out.println("HelloWorld");
+		out.println("HelloWorld1");
 		out.println("HelloWorld2");
+		
+		PrintWriter out2 = response.getWriter();
+		out2.println("Tresc edytowana");
+		
+		
 
 	}
 
